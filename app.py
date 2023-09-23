@@ -152,9 +152,9 @@ def main():
                                         'cpu', 'cuda'], disabled=True, index=0)
     # -- End of Sidebar
 
-    st.header('📦 YOLOv5 Streamlit Deployment Example')
-    st.sidebar.markdown(
-        "https://github.com/thepbordin/Obstacle-Detection-for-Blind-people-Deployment")
+    st.header('AI CAR DAMAGE DETECTOR DEMO')
+    #st.sidebar.markdown(
+    #   "https://github.com/thepbordin/Obstacle-Detection-for-Blind-people-Deployment")
 
     if option == "Image":
         imageInput(loadmodel(deviceoption), datasrc)
