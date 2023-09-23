@@ -10,12 +10,12 @@ from video_predict import runVideo
 
 
 # Configurations
-CFG_MODEL_PATH = "models/yourModel.pt"
+CFG_MODEL_PATH = "path"
 CFG_ENABLE_URL_DOWNLOAD = True
 CFG_ENABLE_VIDEO_PREDICTION = True
 if CFG_ENABLE_URL_DOWNLOAD:
     # Configure this if you set cfg_enable_url_download to True
-    url = "https://archive.org/download/yoloTrained/yoloTrained.pt"
+    url = "https://archive.org/download/damage_202309/damage.pt"
 # End of Configurations
 
 
